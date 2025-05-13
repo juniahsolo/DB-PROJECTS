@@ -1,0 +1,24 @@
+# Library Management System Database
+
+## Project Description
+A complete MySQL database solution for managing library operations including:
+- Member management
+- Book cataloging
+- Loan tracking
+- Reservation system
+- Fine management
+
+## Database Features
+- Properly normalized relational structure
+- Data integrity constraints
+- Comprehensive relationship management
+- Audit logging capability
+
+## Entity Relationship Diagram
+![ERD Diagram](ERD.png)
+
+## Setup Instructions
+1. Clone this repository
+2. Import the SQL file into your MySQL server:
+   ```bash
+   mysql -u username -p < library_db.sql
